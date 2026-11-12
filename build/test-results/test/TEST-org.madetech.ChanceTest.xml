@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.madetech.ChanceTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-06-03T15:29:01.491Z" hostname="MT-MBP-G3RH2LJYXM" time="0.009">
+  <properties/>
+  <testcase name="shouldBeAbleToGetInverseProbability()" classname="org.madetech.ChanceTest" time="0.005"/>
+  <testcase name="shouldNotBeEqualWhenValuesAreDifferent()" classname="org.madetech.ChanceTest" time="0.0"/>
+  <testcase name="shouldNotBeEqualtoNull()" classname="org.madetech.ChanceTest" time="0.0"/>
+  <testcase name="shouldBeEqualWhenValuesEqual()" classname="org.madetech.ChanceTest" time="0.001"/>
+  <testcase name="shouldNotBeEqualToOtherObject()" classname="org.madetech.ChanceTest" time="0.0"/>
+  <testcase name="shouldBeAbleToFindTheChanceOfTwoThingsHappening()" classname="org.madetech.ChanceTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
