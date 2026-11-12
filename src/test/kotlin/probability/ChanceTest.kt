@@ -1,4 +1,4 @@
-package org.madetech
+package org.madetech.probability
 
 import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.Test

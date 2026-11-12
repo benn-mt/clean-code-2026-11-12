@@ -1,4 +1,4 @@
-package org.madetech
+package org.madetech.probability
 
 import kotlin.math.abs
 
