@@ -10,4 +10,9 @@ internal class QuantityTest {
         assertNotEquals(Quantity(1.0, Volumes.Teaspoon), Quantity(2.0, Volumes.Teaspoon))
         assertNotEquals(Quantity(1.0, Volumes.Teaspoon), Quantity(1.0, Volumes.Tablespoon))
     }
+    
+    @Test
+    fun QuantitysOfDifferentUnitsCanBeEqual() {
+        assertEquals(Quantity(3.0, Volumes.Teaspoon), Quantity(1.0, Volumes.Tablespoon))
+    }
 }

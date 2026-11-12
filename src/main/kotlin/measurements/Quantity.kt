@@ -8,7 +8,6 @@ class Quantity(val amount: Double, val unit: Volumes) {
     }
     
     fun equals(other: Quantity): Boolean {
-        return this.amount == other.amount
-        && this.unit == other.unit
+        return this.amount * this.unit.ratioToBaseUnit == other.amount * other.unit.ratioToBaseUnit
     }
 }
