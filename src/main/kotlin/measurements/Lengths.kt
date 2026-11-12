@@ -1,6 +1,6 @@
 package org.madetech.measurements
 
-class Lengths() {
+internal class Lengths {
     companion object {
         val Inch = MeasurementUnit(1)
         val Foot = MeasurementUnit(12*1)
