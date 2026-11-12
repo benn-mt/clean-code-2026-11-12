@@ -8,7 +8,7 @@ class Quantity(val amount: Double, val unit: MeasurementUnit) {
     }
     
     fun equals(other: Quantity): Boolean {
-        return this.amountInBaseUnit() == other.amountInBaseUnit()
+        return this.unit.compatibleWith(other.unit) && this.amountInBaseUnit() == other.amountInBaseUnit()
     }
     
     private fun amountInBaseUnit() : Double{
