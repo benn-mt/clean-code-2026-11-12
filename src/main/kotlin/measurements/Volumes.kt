@@ -1,11 +1,13 @@
 package org.madetech.measurements
 
-enum class Volumes(val ratioToBaseUnit: Int) {
-    Teaspoon(1),
-    Tablespoon(3*1),
-    Ounce(ratioToBaseUnit=2*3*1),
-    Cup(ratioToBaseUnit=8*2*3*1),
-    Pint(ratioToBaseUnit=2*8*2*3*1),
-    Quart(ratioToBaseUnit=2*2*8*2*3*1),
-    Gallon(ratioToBaseUnit=4*2*2*8*2*3*1),
+internal class Volumes {
+    companion object {
+        val Teaspoon = MeasurementUnit(1)
+        val Tablespoon = MeasurementUnit(3*1)
+        val Ounce = MeasurementUnit(ratioToBaseUnit=2*3*1)
+        val Cup = MeasurementUnit(ratioToBaseUnit=8*2*3*1)
+        val Pint = MeasurementUnit(ratioToBaseUnit=2*8*2*3*1)
+        val Quart = MeasurementUnit(ratioToBaseUnit=2*2*8*2*3*1)
+        val Gallon = MeasurementUnit(ratioToBaseUnit=4*2*2*8*2*3*1)
+    }
 }

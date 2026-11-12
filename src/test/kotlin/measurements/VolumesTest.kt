@@ -3,7 +3,7 @@ package org.madetech.measurements
 import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.Test
 
-internal class VolumnesTest {    
+internal class VolumesTest {    
     @Test
     fun testTheChart() {
         assertEquals(Quantity(1.0, Volumes.Tablespoon), Quantity(3.0, Volumes.Teaspoon))

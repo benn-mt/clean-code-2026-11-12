@@ -1,6 +1,6 @@
 package org.madetech.measurements
 
-class Quantity(val amount: Double, val unit: Volumes) {
+class Quantity(val amount: Double, val unit: MeasurementUnit) {
     override fun equals(other: Any?): Boolean {
         if (other !is Quantity) return false
         
